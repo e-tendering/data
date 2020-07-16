@@ -1,0 +1,30 @@
+ User Register : 
+ Post
+http://localhost:3000/register
+body:
+{
+"name":"ayushchauhan",
+  "age":21,
+  "password":"chauhan",
+  "email":"ayush@gmail.com",
+ "CompanyName": "ac limit",
+ "RegistrationNumber": 9909,
+  "RegistrationAddress": 
+    "b-528 ganpati vihar",
+  
+  "city": "alwar",
+  "State":"rajasthan",
+  "postalcode": 98,
+  "PAN_Number":"9899890909"
+
+
+}
+
+User login : 
+ Post
+http://localhost:3000/login
+body:
+{
+ "password":"chauhan",
+  "email":"ayush@gmail.com"
+}
